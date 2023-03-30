@@ -14,22 +14,26 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          I'm a Front Web Developer. I am well experienced on HTML, CSS,
-          Bootstrap, Tailwind, Javascript & React Js. I have done many PSD to
-          HTML projects. Which was helped me to more attentive in wev
-          development. Minimum 1git commit -an 'edit file index.html'0 hours I
-          spent time code. Besides coding I have skilled on CMS like WordPress,
-          Wix, Shopify. I have also done many projects via CMS.
+          I am an experienced React JS developer with expertise in HTML, CSS,
+          Bootstrap, and Tailwind. With years of experience designing and
+          developing high-quality, visually stunning websites, I specialize in
+          creating dynamic and responsive user interfaces for web applications.
+          I am well-versed in React's component-based architecture and use its
+          powerful toolset to create custom components and build out complex
+          UIs. As a detail-oriented and organized developer, I pride myself on
+          my ability to manage projects effectively, communicate clearly, and
+          collaborate with team members.
         </p>
 
         <br />
 
         <p className="text-xl">
-          I am an EEE student but my passion is to do code.When looking for
-          various information on the computer, what comes to mind are that, how
-          do we actually see the pages we are looking at? From that start
-          leaning towards to the web development. You can hire me to do work
-          with you.
+          In short, I am a skilled React JS developer who can help bring your
+          web applications to life. With a focus on creating visually stunning
+          and highly functional user interfaces, I am dedicated to delivering
+          projects on time and to the highest standards. Whether you need custom
+          components, complex UIs, or project management expertise, I have the
+          skills and experience to help you succeed.
         </p>
       </div>
     </div>

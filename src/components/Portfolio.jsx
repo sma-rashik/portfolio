@@ -1,8 +1,8 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import coinSearch from "../assets/portfolio/coinSearch.png";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import todolist from "../assets/portfolio/todoList.png";
+import quiz from "../assets/portfolio/quiz.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
@@ -10,15 +10,21 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: coinSearch,
+      demo: `https://sma-crypto-coins.netlify.app/`,
+      code: `https://github.com/sma-rashik/crypto-coins`,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: quiz,
+      demo: `https://ph-quiz7.netlify.app`,
+      code: `https://github.com/sma-rashik?tab=repositories`,
     },
     {
       id: 3,
-      src: navbar,
+      src: todolist,
+      demo: `https://todolistusinglocalstorage.netlify.app`,
+      code: `https://github.com/sma-rashik/todoListUSingLocalStorage`,
     },
     {
       id: 4,
@@ -48,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -57,10 +63,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
+                  <a href={demo}>Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                  <a href={code}>Code</a>
                 </button>
               </div>
             </div>
