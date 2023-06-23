@@ -7,7 +7,7 @@ import nextjs from "../assets/nextjs.png";
 import bootstrap from "../assets/bootstrap.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import wordpress from "../assets/Wordpress.png";
+import mongodb from "../assets/mongodb.png";
 
 const Experience = () => {
   const techs = [
@@ -61,9 +61,9 @@ const Experience = () => {
     },
     {
       id: 9,
-      src: wordpress,
-      title: "WordPress",
-      style: "shadow-sky-400",
+      src: mongodb,
+      title: "mongodb",
+      style: "shadow-green-400",
     },
   ];
 
