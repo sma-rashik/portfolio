@@ -3,8 +3,8 @@ import coinSearch from "../assets/portfolio/coinSearch.png";
 import toyMania from "../assets/portfolio/toyMania.png";
 import todolist from "../assets/portfolio/todoList.png";
 import quiz from "../assets/portfolio/quiz.png";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import italia from "../assets/portfolio/italia.png";
+import cricdemy from "../assets/portfolio/cricdemy.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -40,9 +40,9 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: reactWeather,
+      src: cricdemy,
       demo: `https://cricket-academy-b09eb.web.app/`,
-      code: ` https://github.com/sma-rashik/toy-mania-client`,
+      code: `https://github.com/sma-rashik/toy-mania-client`,
     },
   ];
 
