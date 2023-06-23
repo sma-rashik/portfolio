@@ -1,10 +1,10 @@
 import React from "react";
 import coinSearch from "../assets/portfolio/coinSearch.png";
-import installNode from "../assets/portfolio/installNode.jpg";
+import toyMania from "../assets/portfolio/toyMania.png";
 import todolist from "../assets/portfolio/todoList.png";
 import quiz from "../assets/portfolio/quiz.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import italia from "../assets/portfolio/italia.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -28,15 +28,21 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: italia,
+      demo: `https://italia-cuisine.web.app/`,
+      code: `https://github.com/sma-rashik/italia-cuisine-client`,
     },
     {
       id: 5,
-      src: installNode,
+      src: toyMania,
+      demo: `https://toy-project-d810d.web.app/`,
+      code: ` https://github.com/sma-rashik/toy-mania-client`,
     },
     {
       id: 6,
       src: reactWeather,
+      demo: `https://cricket-academy-b09eb.web.app/`,
+      code: ` https://github.com/sma-rashik/toy-mania-client`,
     },
   ];
 
